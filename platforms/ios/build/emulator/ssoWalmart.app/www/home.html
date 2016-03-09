@@ -1,0 +1,27 @@
+<ion-pane>
+  <ion-header-bar class="bar-calm">
+    <h1 class="title">Single Sign On</h1>
+    <a class="button icon ion-home" href="#/login"></a>
+  </ion-header-bar>
+  <ion-content>
+    <div class="list card">
+      <div class="item item-avatar">
+        <img src="{{image}}">
+        <label style="font-size:medium;color:green;">Welcome {{firstname}} {{lastname}}</label>
+        <p>{{date | date:'MMM dd , yyyy'}}</p>
+      </div>
+      <div class="item item-body">
+        <img class="full-image" src="{{image}}">
+        <p>
+          First Name : {{firstname}}
+        </p>
+        <p>
+          Last Name : {{lastname}}
+        </p>
+        <p>
+          Email : {{email}}
+        </p>
+      </div>
+    </div>
+  </ion-content>
+</ion-pane>
